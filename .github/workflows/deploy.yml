@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: self-hosted
     timeout-minutes: 20
-      steps:
+    steps:
         - name: Checkout
 					uses: actions/checkout@v3
         - name: Create back-end env file
